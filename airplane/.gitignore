@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large raw data (don't commit the huge merged raw file, only the processed CSV)
+final_airplane.csv
+
+# Streamlit
+.streamlit/secrets.toml
